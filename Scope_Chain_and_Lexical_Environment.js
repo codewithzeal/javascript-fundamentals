@@ -1,0 +1,4 @@
+/*Every execution context has access to its own enviroment and reference
+to lexical enviromnent of parent
+In case of global execution context this reference points to NULL
+*/

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="CallBacks.js"></script>
+    <script src="debouncing.js"></script>
+    <script src="Throttling.js"></script>
+</head>
+<body>
+    <!--To demonstrate cllick handler as a callback-->
+    <button id="clickme">event handler as callback</button>
+    <!--To demosnatrate the concept of debouncing-->
+    Debounce Input Poor Implementation: <input type="Text" onkeyup="getData1()">
+    Debounce Input Proper Implementation: <input type="Text" onkeyup="BetterWay('counter2')">
+    Throttle button Implementation<input type="button" value="clickme" onclick="Throttle('counter')">
+</body>
+</html>
